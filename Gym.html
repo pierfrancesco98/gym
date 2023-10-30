@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gym web app</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="gym.css">
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>  
+  </head>
+  <body>
+    <header>
+      <div class="hero">
+        <nav>
+          <h1 class="logo text-white">Gym Workout</h1>
+          <ul class="menu">
+            <li><a href="#" id="home">Home</a></li>
+            <li><a href="../projects.html">Return projects page</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+          <div class="dropdown">
+            <button class="button btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Parti del Corpo
+            </button>
+            <ul class="dropdown-menu">
+              <li><a id="waist" class="dropdown-item text-white" href="#esercizi">Addome</a></li>
+              <li><a id="chest" class="dropdown-item text-white " href="#esercizi">Petto</a></li>
+              <li><a id="upper legs" class="dropdown-item text-white" href="#esercizi">Gambe</a></li>
+              <li><a id="shoulders" class="dropdown-item text-white" href="#esercizi">Spalle</a></li>
+              <li><a id="upper arms" class="dropdown-item text-white" href="#esercizi">Braccia</a></li>
+              <li><a id="back" class="dropdown-item text-white" href="#esercizi">schiena</a></li>
+              <li><a id="cardio" class="dropdown-item text-white" href="#esercizi">cardio</a></li>
+            </ul>
+          </div>
+          <div class="menu-btn">
+            <i class="fas fa-align-left text-white"></i>
+        </div>
+        </nav>
+        <div class="ser">
+        <input type="text" id="search" placeholder="Cerca parte del corpo">
+      <button id="btnSearch" class="butt">Search</button>
+      </div>
+      </div>
+    </header>
+    <main>
+ <section id="esercizi" class="esercizi">
+  <h2 id="textEsercizi" class="text-center text-white"></h2>
+  <div class="container-esercizi">
+
+  </div>
+ </section>
+</main>
+<div class="container">
+  <a href="#" class="return-top"><i class="fas fa-arrow-up"></i></a>
+  </div>
+<footer class="text-center text-white " style="background-color: #000;">
+  <div class="container p-4"></div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <p class="text-white">Gym Workout</p>
+  </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="./gym.js"></script>
+  </body>
+</html>
