@@ -10,7 +10,7 @@ window.addEventListener('scroll', () => {
 const options = {
    method: 'GET',
    headers: {
-       'X-RapidAPI-Key': '8ebee3abdamshb792b44d508585bp169de2jsn72ca263d37ad',
+       'X-RapidAPI-Key': 'Your Api Key',
        'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
    }
 };
